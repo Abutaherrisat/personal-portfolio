@@ -10,7 +10,7 @@ const Contact = () => {
     function sendEmail(e) {
         e.preventDefault();
 
-        emailjs.sendForm('service_ajqproj', 'template_22tyxcf', e.target, 'user_AIXmKpXq8yudyUWzqUdzW')
+        emailjs.sendForm('service_xu185ml', 'template_ghbd2uy', e.target, 'user_47NXMbkUxeSKrtlPUMqlY')
             .then((result) => {
                 alert("Email Has Been Successfully Sent!");
                 e.target.reset();

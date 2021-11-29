@@ -4,7 +4,10 @@
 }
 
 .skills:hover{
-    background-color:#28a745;
+    /* background-color:#28a745; */
+    background-color: #4ffa4f;
+    color: black !important;
+    font-weight: bold;
 }
 .skill-container{
     display: flex;
@@ -16,5 +19,6 @@
     width: 350px;
     padding: 20px;
     margin: 10px;
-    border: 1px solid #28a745;
+    /* border: 1px solid #28a745; */
+    border: 1px solid #4ffa4f;
 }

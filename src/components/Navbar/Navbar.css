@@ -1,10 +1,15 @@
 .resume-btn{
     width: 150px;
     text-align: center;
-    background-color: #28a745;
-    color: aliceblue !important;
+    /* background-color: #28a745; */
+    background-color: #4ffa4f  ;
+    /* color: aliceblue !important; */
+    color: #000015 !important;
     border-radius:20px;
     margin-top: 4px;
+}
+.text-color{
+    color:#4ffa4f !important ;
 }
 .links{
     padding: 10px;
@@ -14,11 +19,14 @@
     border: 2px solid white!important;
 }
 .nav-link:hover{
-    background-color:#28a745;
+    /* background-color:#28a745; */
+    background-color: #4ffa4f;
+    color: #000 !important;
   }
 
   .navbar-toggler{
-      background-color:#28a745;
+      /* background-color:#28a745; */
+      background-color: #212F3D 
   }
 
   .navbar{

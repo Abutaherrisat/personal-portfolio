@@ -2,7 +2,8 @@ h1{
     font-size:50px;
 }
 .green-effect{
-    color :#28a745;
+    /* color :#28a745; */
+    color: #4ffa4f;
 }
 .profile-pic{
     border: 5px solid white;

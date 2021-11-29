@@ -7,7 +7,7 @@ const Navbar = () => {
         <div className='mb-5'>
             <nav className="navbar fixed-top navbar-expand-lg navbar-light">
                 <div className="container-fluid">
-                    <a style={{cursor:'pointer'}} className="navbar-brand text-white" onClick={()=>{scroll.scrollToTop()}}>Iftekhar Hasan</a>
+                    <a style={{cursor:'pointer'}} className="navbar-brand text-white" onClick={()=>{scroll.scrollToTop()}}>ABU <span className="text-color">TAHER</span></a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
@@ -19,7 +19,7 @@ const Navbar = () => {
                             <Link className="nav-link links active me-2 text-white" to="blogs" smooth={true} duration={1000}>Blogs</Link>
                             <Link className="nav-link links active me-2 text-white" to="contact" smooth={true} duration={1000}>Contact</Link>
                             <div className="d-flex justify-content-center">
-                                <a className="nav-link resume-btn" target="_blank" href="https://drive.google.com/file/d/10JQ5o75BlmmsIXs4STXMpoZ8Nqkq4MSW/view?usp=sharing">Resume</a>
+                                <a className="nav-link resume-btn" target="_blank" href="https://drive.google.com/file/d/1NAfD6Hw1BooLHI5G2vYhKBy_6oW3BbLv/view">Resume</a>
                             </div>
                         </div>
                     </div>
