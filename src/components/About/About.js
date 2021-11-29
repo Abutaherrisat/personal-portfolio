@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import './About.css'
-import profile from '../../image/taher-1.png';
+import profile from '../../image/taher-3.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebookSquare, faGithubSquare, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import Aos from 'aos';
@@ -14,7 +14,7 @@ const About = () => {
         <div style={{overflowX:'hidden'}} className='container pt-5' id='about'>
             <div className="text-center">
                 <h2 className="text-white fw-bold mt-3"><span className='green-effect'>About</span> Me</h2>
-                <img data-aos='fade-right' className='profile-pic rounded-circle mt-3' src={profile} height="300px" alt="" />
+                <img data-aos='fade-right' className='profile-pic rounded-circle mt-3' src={profile} height="300px" width="300px" alt="" />
             </div>
             <div data-aos='fade-left' style={{ width: '60%', margin: '0 auto' }} className='text-white text-justify mt-3 pb-3'>
                 <p className="">Hello , I'm Abu Taher. I am a Junior web developer. I love to learn new technologies.My core skill is based on React and I love to do most of the things using React.js. I am currently a student of Islamia Degree College </p>
