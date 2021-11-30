@@ -13,13 +13,13 @@ const Navbar = () => {
                     </button>
                     <div className="collapse navbar-collapse topbar" id="navbarNavAltMarkup">
                         <div className="ms-auto text-center navbar-nav">
-                            <a className="nav-link links active me-2 text-white" onClick={() => { scroll.scrollToTop() }}>Home</a>
-                            <Link className="nav-link links active me-2 text-white" to="about" smooth={true} duration={1000}>About</Link>
-                            <Link className="nav-link links active me-2 text-white" to="projects" smooth={true} duration={1000}>Projects</Link>
-                            <Link className="nav-link links active me-2 text-white" to="blogs" smooth={true} duration={1000}>Blogs</Link>
-                            <Link className="nav-link links active me-2 text-white" to="contact" smooth={true} duration={1000}>Contact</Link>
+                            {/* <a className="nav-link links active me-2 text-white" onClick={() => { scroll.scrollToTop() }}>Home</a> */}
+                            <Link to='/about' className="nav-link links active me-2 text-white" to="about" smooth={true} duration={1000}>About</Link>
+                            <Link to="/projects" className="nav-link links active me-2 text-white" to="projects" smooth={true} duration={1000}>Projects</Link>
+                            <Link to='/blogs' className="nav-link links active me-2 text-white" to="blogs" smooth={true} duration={1000}>Blogs</Link>
+                            <Link to='/contact' className="nav-link links active me-2 text-white" to="contact" smooth={true} duration={1000}>Contact</Link>
                             <div className="d-flex justify-content-center">
-                                <a className="nav-link resume-btn" target="_blank" href="https://drive.google.com/file/d/1NAfD6Hw1BooLHI5G2vYhKBy_6oW3BbLv/view">Resume</a>
+                                <a className="nav-link resume-btn"  rel="noreferrer" target="_blank" href="https://drive.google.com/file/d/1YdiSICNusV6WmQcNToioqYwkMuE0cWY_/view">Resume</a>
                             </div>
                         </div>
                     </div>
